@@ -8,6 +8,4 @@ The goal of this GitHub repository is to provide a location where links to tutor
 
 * Requirements Example - Provides examples of how to handle requirements checking in Didact tutorials. [Register this](vscode://redhat.vscode-didact?commandId=vscode.didact.registry.addUri&&https=raw.githubusercontent.com/redhat-developer/vscode-didact/master/examples/requirements.example.didact.md&&name=Requirements%20Example&&category=From%20The%20Web)
 
-<span class="fs-8">
-[Link button](http://example.com/){: .btn }
-</span>
+<a href='didact://?commandId=vscode.didact.validateAllRequirements' title='Validate all requirements!'><button>Validate all Requirements at Once!</button></a>
