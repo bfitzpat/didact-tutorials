@@ -20,7 +20,9 @@ You can use the same mechanism to simply open the remote tutorial. (Copy this te
 
 ## Try this
 
-<a href="scode://redhat.vscode-didact?commandId=vscode.didact.registry.addUri&&https=raw.githubusercontent.com/redhat-developer/vscode-didact/master/examples/requirements.example.didact.md&&name=Requirements%20Example&&category=From%20The%20Web" target="_blank">VS Code requirements example</a>
+<a href="vscode://redhat.vscode-didact?commandId=vscode.didact.registry.addUri&&https=raw.githubusercontent.com/redhat-developer/vscode-didact/master/examples/requirements.example.didact.md&&name=Requirements%20Example&&category=From%20The%20Web" target="_blank">VS Code requirements example</a>
+
+<a href="http://example.com">Link</a>
 
 ### These Methods Don't Work
 
