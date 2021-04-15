@@ -4,19 +4,28 @@
 
 The goal of this GitHub repository is to provide a location where links to tutorials of all kinds can be placed for easy access. Pick one and copy the link to make it available from within your `Didact Tutorials` view! 
 
-## Available Tutorials
+## Using these links
 
-To add these tutorials to the Didact Tutorials view in your local VS Code workspace, do the following:
+To add these tutorials to the Didact Tutorials view in your local VS Code workspace or simply start them in a new Didact window, do the following:
 
 * Copy the link text for the tutorial from this page.
 * Launch VS Code Quick Open (Ctrl+P), type `Didact: Process vscode link from web`, and press enter. 
-* Paste the tutorial link text and hit enter.
+* The command will pick up the URL from the clipboard and register or start the tutorial.
 
-* Requirements Example - Provides examples of how to handle requirements checking in Didact tutorials. (Copy this text to the clipboard: `vscode://redhat.vscode-didact?commandId=vscode.didact.registry.addUri&&https=raw.githubusercontent.com/redhat-developer/vscode-didact/master/examples/requirements.example.didact.md&&name=Requirements%20Example&&category=From%20The%20Web`)
+### Requirements Example
 
-## Just Open the Tutorial
+Provides examples of how to handle requirements checking in Didact tutorials. 
 
-You can use the same mechanism to simply open the remote tutorial. (Copy this text to the clipboard: `vscode://redhat.vscode-didact?https=raw.githubusercontent.com/redhat-developer/vscode-didact/master/examples/requirements.example.didact.md`
+* Copy this text to the clipboard to register the tutorial: `vscode://redhat.vscode-didact?commandId=vscode.didact.registry.addUri&&https=raw.githubusercontent.com/redhat-developer/vscode-didact/master/examples/requirements.example.didact.md&&name=Requirements%20Example&&category=From%20The%20Web`
+* Copy this text to the clipboard to start the tutorial: `vscode://redhat.vscode-didact?https=raw.githubusercontent.com/redhat-developer/vscode-didact/master/examples/requirements.example.didact.md`
+
+
+
+
+
+
+
+
 
 ## Try this
 
