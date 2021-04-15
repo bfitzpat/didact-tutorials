@@ -6,13 +6,19 @@ The goal of this GitHub repository is to provide a location where links to tutor
 
 ## Available Tutorials
 
-To add these tutorials to the Didact Tutoriasl view in your local VS Code workspace, do the following:
+To add these tutorials to the Didact Tutorials view in your local VS Code workspace, do the following:
 
 * Copy the link text for the tutorial from this page.
 * Launch VS Code Quick Open (Ctrl+P), type `Didact: Process vscode link from web`, and press enter. 
 * Paste the tutorial link text and hit enter.
 
 * Requirements Example - Provides examples of how to handle requirements checking in Didact tutorials. (Copy this text to the clipboard: `vscode://redhat.vscode-didact?commandId=vscode.didact.registry.addUri&&https=raw.githubusercontent.com/redhat-developer/vscode-didact/master/examples/requirements.example.didact.md&&name=Requirements%20Example&&category=From%20The%20Web`)
+
+## Just Open the Tutorial
+
+You can use the same mechanism to simply open the remote tutorial. (Copy this text to the clipboard: `vscode://redhat.vscode-didact?https=raw.githubusercontent.com/redhat-developer/vscode-didact/master/examples/requirements.example.didact.md`
+
+### These Methods Don't Work
 
 [VSCode link from web - does not work, link is hidden](vscode://redhat.vscode-didact?commandId=vscode.didact.registry.addUri&&https=raw.githubusercontent.com/redhat-developer/vscode-didact/master/examples/requirements.example.didact.md&&name=Requirements%20Example&&category=From%20The%20Web)
 
